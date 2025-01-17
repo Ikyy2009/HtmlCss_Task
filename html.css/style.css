@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.box {
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  line-height: 1.5;
+  box-shadow: 0px 10px 50px #000;
+}
+
+.blue {
+  background-color: #248cac;
+}
+
+.yellow {
+  background-color: #f8e71c;
+  color: black;
+}
+
+.yellow-outline {
+  background-color: transparent;
+  border: 2px dashed #f8e71c;
+  color: rgb(194, 42, 42);
+}
